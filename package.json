@@ -1,0 +1,26 @@
+{
+  "name": "node_js_postgresql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilianomassai/node_js_postgresql.git"
+  },
+  "author": "Emiliano Massai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilianomassai/node_js_postgresql/issues"
+  },
+  "homepage": "https://github.com/emilianomassai/node_js_postgresql#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
+  }
+}
