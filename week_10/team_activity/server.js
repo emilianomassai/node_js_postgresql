@@ -61,7 +61,7 @@ function getPersonFromDb(id, callback) {
 
   // sequel, declaring that the passed id will be an integer and it will be
   // passed as first parameter
-  var sql = "SELECT id, first, last birthdate FROM person WHERE id = $1::int";
+  var sql = "SELECT id, first, last, birthdate FROM person WHERE id = $1::int";
 
   // parameters saved as array (in this case we have only a value, id)
   var params = [id];
